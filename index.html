@@ -5,16 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gediel Cassemiro Teixeira</title>
     <link rel="stylesheet" href="padrao.css">
+    <style>
+        nav {
+            background: #333;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            box-sizing: border-box;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Gediel Cassemiro Teixeira</h1>
+        <h1>Trabalho Uninter - Gediel Cassemiro Teixeira</h1>
     </header>
-    <barra-navegacao></barra-navegacao>
+    <nav>
+        <a href="/pages/sobre.html">Sobre Mim</a>
+        <a href="/pages/formacao.html">Formação</a>
+        <a href="/pages/portifolio.html">Portifólio</a>
+        <a href="/pages/contato.html">Contato</a>
+    </nav>
     <section>
-        <h2 id="titulo">Aviso!!</h2>
-        <p id="conteudo">Clique em algum menu acima para mostrar o conteudo.</p>
+        <h2>Aviso!!</h2>
+        <p>Clique em algum menu acima para mostrar o conteudo.</p>
     </section>
 </body>
-<script src="barraNavegacao.js"></script>
 </html>

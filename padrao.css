@@ -4,6 +4,12 @@ body {
     background-color: #e7d1c9;
 }
 
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 20px;
+}
+
 h2 {
     text-align: center;
     font-size: 60px;
@@ -20,6 +26,10 @@ h3 {
     box-sizing: border-box;
 }
 
+.instituicao, .sobre {
+    text-align: start;
+}
+
 li {
     list-style: none;
     margin: 10px 0;
@@ -33,6 +43,34 @@ p {
     box-sizing: border-box;
 }
 
+input {
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    font-size: clamp(15px, 2vw, 20px);
+    width: 25%;
+    box-sizing: border-box;
+}
+
+textarea {
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    font-size: clamp(15px, 2vw, 20px);
+    width: 25%;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    font-size: clamp(15px, 2vw, 20px);
+    width: 25%;
+    box-sizing: border-box;
+}
+
 .conteudo {
     font-size: clamp(15px, 2vw, 30px);
     text-align: justify;
@@ -41,9 +79,14 @@ p {
     width: 60%;
 }
 
-#parallax {
+.parallax {
     width: 50%;
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.descricao {
+    justify-self: center;
+    width: 25%;
 }
