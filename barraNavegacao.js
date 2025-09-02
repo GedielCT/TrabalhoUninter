@@ -32,10 +32,10 @@ class barraNavegacao extends HTMLElement {
                 }
             </style>
             <nav>
-                <a href="/pages/sobre.html">Sobre Mim</a>
-                <a href="/pages/formacao.html">Formação</a>
-                <a href="/pages/portifolio.html">Portifólio</a>
-                <a href="/pages/contato.html">Contato</a>
+                <a href="../pages/sobre.html">Sobre Mim</a>
+                <a href="../pages/formacao.html">Formação</a>
+                <a href="../pages/portifolio.html">Portifólio</a>
+                <a href="../pages/contato.html">Contato</a>
             </nav>
         `;
     }
